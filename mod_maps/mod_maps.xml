@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.2.0" client="site" method="upgrade">
+    <name>Maps</name>
+    <author>Samuel Imfeld</author>
+    <version>1.0.0</version>
+    <description>OLV Zug maps module.</description>
+    <files>
+        <filename>mod_maps.xml</filename>
+        <filename module="mod_maps">mod_maps.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>css/mod_maps.css</filename>
+    </files>
+    <config>
+		<fields name="params"><!--
+      <fieldset name="options">
+			 <field
+					name="loechli"
+					type="radio"
+					label="loechli events only"
+					description="Do you want to load loechli events only?" >
+					<option value="1">yes</option>
+          <option value="0">no</option>
+			</field>
+			</fieldset>-->
+			<fieldset
+				name="advanced">
+				<field
+					name="moduleclass_sfx"
+					type="textarea" rows="3"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+			</fieldset>
+		</fields>
+    </config>
+</extension>
