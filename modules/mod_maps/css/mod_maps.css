@@ -1,0 +1,37 @@
+/* =========== accordion feature ==============*/
+
+#accordion div {
+  
+}
+
+#accordion h2 {
+  background-color: #cccccc;
+  color: #333333;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#accordion h2:hover {
+  background-color: #095197;
+  color: #fff;
+}
+
+#accordion tr {
+  width: 100%;
+}
+
+#accordion td.title {
+  width: 90%;
+}
+
+#accordion table {
+  width: 100%;
+}
+
+#accordion td {
+  vertical-align: top;
+  padding: 5px;
+}
